@@ -1,0 +1,177 @@
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+    }
+   
+    body { min-height: 100vh; }
+    html { background-color: #000; } 
+    body {
+        min-height: 100vh;
+        max-width: 900px;
+   
+        margin: 0 auto;
+    }
+
+.contenedor {
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: 50% 50%;
+    
+}
+.Nombres {
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    font-weight: 900;
+    font-family:'Roboto Condensed', sans-serif;
+    font-style:oblique;
+    font-size: 40px;
+}
+.Apellidos {
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 35px;
+    font-style:oblique;
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: 100;
+}
+.subtitulo {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(76, 117, 250);
+    margin-top: 0px;
+    margin-bottom: 0%;
+    font-weight: bold;
+}
+
+.imagen2 {
+    background-color: var(#dde7f3);
+}
+.imagen2 img {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+    border-radius: 5%;
+    position:relative;
+
+}
+/**CONTACTAR**/
+.contenedor_especial{
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+    width: 700px;
+    height: 25px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.Lin {
+    text-align: center;
+    margin-right: 12%;
+    margin-bottom: 0%;
+}
+
+.CE1 {
+    text-decoration: none;
+    background-color: var(#dde7f3);
+    color: rgb(5, 5, 5);
+    text-transform: uppercase;
+    font-weight: bold;
+    position:absolute;
+    text-align: center;
+}
+.CE2 {
+    text-decoration: none;
+    background-color: var(#dde7f3);
+    color: rgb(5, 5, 5);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+
+/**********cintillo*********/
+.cintillo {
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    color: #000;
+}
+/***********************************************************/
+.contenedor2 {
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: 30% 30% 30%;
+    margin-left: 3%;
+
+}
+.Sobre_Mi {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.Sobre_Mi p {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+.h3 {
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: .1%;
+    background-color: rgb(76, 117, 250);
+    color: blanchedalmond;
+    border-radius: 10%;
+    margin-left: 3%;
+}
+.Radar_img {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    align-items: center;
+    border-radius: 10%;
+}
+/***********************************************************/
+.h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:2.5% ;
+}
+.contenedor3 {
+    display: grid;
+    column-gap: 0rem;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 2%;
+}
+
+.f1{
+    position:relative;
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+}
+.text1{
+    position:absolute;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 2%;
+ 
+}
+/**FOOTTER**/
+.footer {
+    margin-top: 5%;
+    text-align: center;
+    background-color: gray;
+    color: blanchedalmond;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+
